@@ -1,13 +1,14 @@
 {
-  "name": "bakong-check-payment",
+  "name": "bakong-api",
   "version": "1.0.0",
+  "type": "module",
   "main": "check_payment.js",
   "scripts": {
     "start": "node check_payment.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "axios": "^1.6.7",
-    "dotenv": "^16.4.5"
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.1",
+    "express": "^4.19.2"
   }
 }
